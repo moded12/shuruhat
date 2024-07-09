@@ -1,0 +1,74 @@
+name: naat_app
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.3.2
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.2
+  http: ^0.13.3
+  photo_view: ^0.14.0
+  flutter_cache_manager: ^3.3.1
+  cached_network_image: ^3.3.1
+  google_fonts: ^4.0.4
+  launch_review: ^3.0.1
+  share: ^2.0.4
+  purchases_flutter: ^6.19.0
+  url_launcher: ^6.0.12
+  cupertino_icons: ^1.0.6
+  just_audio: ^0.9.36
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  gallery_saver: ^2.3.2
+  fluttertoast: ^8.2.4
+  bouncing_widget: ^2.0.0
+  flutter_email_sender: ^6.0.2
+  google_mobile_ads: ^4.0.0
+  wc_flutter_share: ^0.4.0
+  webview_flutter: ^4.5.0
+  rxdart: ^0.27.7
+  firebase_core: ^2.24.2
+  flutter_local_notifications: ^16.3.2
+  firebase_remote_config: ^4.3.8
+  flutter_bloc: ^8.1.3
+  connectivity_plus: ^5.0.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  wakelock: ^0.6.2
+  dots_indicator: ^3.0.0
+  flutter_native_splash: ^2.3.2
+  firebase_analytics: ^10.8.0
+  flutter_cached_pdfview: ^0.4.2
+  curved_navigation_bar: ^1.0.3
+  internet_connection_checker: ^1.0.0+1
+  in_app_update: ^4.2.2
+  flutter_neumorphic:
+    git:
+      url: https://github.com/den0206/Flutter-Neumorphic.git
+      ref: feature/remoce_accentcolor
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+  flutter_launcher_icons: ^0.13.1
+
+flutter_native_splash:
+  android: true
+  ios: true
+  background_image: 'assets/images/splash.png'
+  android_gravity: fill
+  ios_content_mode: scaleAspectFill
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/
